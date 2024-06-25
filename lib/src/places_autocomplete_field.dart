@@ -1,8 +1,9 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_google_places/src/flutter_google_places.dart';
-import 'package:google_maps_webservice/places.dart';
+import 'package:neom_maps_services/places.dart';
+
+import 'neom_google_places.dart';
 
 /// A text field like widget to input places with autocomplete.
 ///
@@ -36,7 +37,7 @@ class PlacesAutocompleteField extends StatefulWidget {
   /// by the decoration to save space for the labels), set the [decoration] to
   /// null.
   const PlacesAutocompleteField({
-    Key? key,
+    super.key,
     required this.apiKey,
     this.controller,
     this.leading,
@@ -59,7 +60,7 @@ class PlacesAutocompleteField extends StatefulWidget {
     this.overlayBorderRadius,
     this.textStyle,
     this.textStyleFormField,
-  }) : super(key: key);
+  });
 
   /// Controls the text being edited.
   ///

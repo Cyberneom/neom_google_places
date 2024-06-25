@@ -1,8 +1,6 @@
-# flutter_google_places 
+# neom_google_places 
 
-[![Flutter Community: flutter_google_places](https://fluttercommunity.dev/_github/header/flutter_google_places)](https://github.com/fluttercommunity/community)
-
-[![Pub](https://img.shields.io/pub/v/flutter_google_places.svg)](https://pub.dartlang.org/packages/flutter_google_places)
+[![Pub](https://img.shields.io/pub/v/neom_google_places.svg)](https://pub.dartlang.org/packages/flutter_google_places)
 
 This library provides Google places autocomplete widgets for flutter. It uses [google_maps_webservice](https://github.com/lejard-h/google_maps_webservice) library which directly refer to the official [documentation](https://developers.google.com/maps/web-services/) for google maps web service. 
 
@@ -15,7 +13,7 @@ In the `dependencies:` section of your `pubspec.yaml`, add the following line:
 
 ```yaml
 dependencies:
-  flutter_google_places: <latest_version>
+  neom_google_places: <latest_version>
 ```
 
 ## Usage
