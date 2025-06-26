@@ -1,6 +1,6 @@
 name: neom_google_places
 description: Google places autocomplete widgets for flutter maintained by Cyberneom.
-version: 1.0.1
+version: 1.1.0
 repository: https://github.com/Cyberneom/neom_google_places
 
 environment:
@@ -9,14 +9,12 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  google_api_headers: ^4.1.2
+  google_api_headers: ^4.4.5
   neom_maps_services: ^1.0.3
-  http: ^1.2.1
+  http: ^1.4.0
   rxdart: ^0.28.0
 
 dev_dependencies:
-#  flutter_test:
-#    sdk: flutter
   flutter_lints: ^4.0.0
 
 flutter:
