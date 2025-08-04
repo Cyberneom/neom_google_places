@@ -9,8 +9,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  google_api_headers: ^4.4.5
-  neom_maps_services: ^1.0.3
+
+  google_api_headers: ^4.5.7
+  neom_maps_services: ^1.1.0
   http: ^1.4.0
   rxdart: ^0.28.0
 
