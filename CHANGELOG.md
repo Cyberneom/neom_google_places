@@ -1,3 +1,5 @@
+## 2.0.1
+- Updating README
 ## 2.0.0
 - Updating for Places API changes
 - Improving models structure
