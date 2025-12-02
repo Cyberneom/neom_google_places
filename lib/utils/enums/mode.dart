@@ -1,0 +1,1 @@
+enum Mode { overlay, fullscreen }
